@@ -61,7 +61,7 @@ void insertMiddleNode(linkedList_h*L, listNode *pre, char*x) {
         }
 }
 
-void insertListNode(linkedList_h*L,char*x){
+void insertLastNode(linkedList_h*L,char*x){
         listNode*newNode;
         listNode*temp;
         newNode = (listNode*)malloc(sizeof(listNode));
